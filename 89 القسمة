@@ -1,0 +1,12 @@
+
+<html>
+    <head>
+        <script>
+            var x =prompt ("please enter number") ;
+            var y =x % 89 ;
+            if (y== 0){document.write("yes")}
+            else {document.write("no")}
+            
+        </script>
+    </head>
+</html>
