@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <script>
+             function write(text) {
+                document.write(text);
+                document.write("<br></br>");}
+
+            var x = prompt ("please enter number")
+            var y =1;
+            var i =1;
+            
+            
+while (y<x)   {i = 1 ;
+            document.write("<br></br>");
+            y=y+1;
+while (i<y) {document.write(i);
+             i=i+1;}}
+             document.write("<br></br>");
+             i=1 ;   
+while (x>i) {document.write(i);
+             i=i+1 ;} 
+            document.write(i);
+                
+            
+        </script>
+        <style>
+            body {display: flex;
+            justify-content: center}
+        </style>
+    </head>
+    <body>
+    </body>
+</html>
