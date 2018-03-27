@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script>
+            function write(text) {
+                document.write(text);
+                document.write("<br></br>");
+            }
+
+            var num =prompt("please enter number");
+            var x =0;
+ while(x<num)   {var i = num/x ;
+                 var y =num %x
+                 if (y==0){document.write(x);
+                 document.write("*");
+                 document.write(i);
+                 document.write("<br></br>");}
+                 else{}
+                 x=x+1}
+            
+            
+        
+        </script>
+    </head>
+</html>
