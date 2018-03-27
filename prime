@@ -1,0 +1,23 @@
+
+<html>
+    <head>
+        <script>
+              function write(text) {
+                document.write(text);
+                document.write("<br></br>");}
+            var num = prompt("please enter number");
+            var x = 0;
+            var y = num-1 ;
+            write(num)
+            while (y>1){var a = num%y;
+                       y=y-1;
+                       if (a==0){x=a;
+                                y=0}
+                       else {x=5}}
+            if (x==a){write("not prime")}
+            else{write("is prime")}
+        
+            
+        </script>
+    </head>
+</html>
