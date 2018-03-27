@@ -1,0 +1,18 @@
+
+<html>
+    <head>
+        <script>
+              function write(text) {
+                document.write(text);
+                document.write("<br></br>");}
+            var word =prompt("please enter word")
+            var x = word.length;
+            var re="";
+            while (x>0){re= re +word[x-1];
+                       x=x-1}
+             if (re==word){document.write("yes")}
+            else(document.write("no"))
+            
+        </script>
+    </head>
+</html>
